@@ -15,11 +15,11 @@ return [
     |
     */
 
-    'paths' => ['*', '/api/*', '/sanctum/csrf-cookie'],
+    'paths' => ['*', 'api/*', 'sanctum/csrf-cookie'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['grovepickleball.com', 'www.grovepickleball.com', 'api.grovepickleball.com'],
+    'allowed_origins' => ['*','https://grovepickleball.com', 'https://www.grovepickleball.com', 'api.grovepickleball.com'],
 
     'allowed_origins_patterns' => ['*'],
 
