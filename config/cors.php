@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['*','https://grovepickleball.com', 'https://www.grovepickleball.com', 'https://api.grovepickleball.com'],
 
     'allowed_origins_patterns' => ['*'],
 
